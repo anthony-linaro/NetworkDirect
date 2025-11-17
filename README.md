@@ -1,6 +1,6 @@
 # NetworkDirect SPI
 
-This fork contains updates that allow building everything with Visual Studio 2022. There is no dependency on CBT (common build tools).
+This fork of a fork contains updates that allow building everything with Visual Studio 2022. There is no dependency on CBT (common build tools). It also adds support for Windows ARM64.
 
 The NetworkDirect architecture provides application developers with a networking interface that enables zero-copy data transfers between applications, kernel-bypass I/O generation and completion processing, and one-sided data transfer operations. The NetworkDirect service provider interface (SPI) defines the interface that NetworkDirect providers implement to expose their hardware capabilities to applications.
 

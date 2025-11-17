@@ -42,6 +42,11 @@
 #define __drv_aliasesMem
 #endif
 
+// This allows ASSERT_BENIGN to be used
+#if DBG
+#include "ndutil.h"
+#endif
+
 //---------------------------------------------------------
 //
 //  class ListHelper

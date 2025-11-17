@@ -9,12 +9,13 @@ namespace NetworkDirect
 {
 #ifndef ASSERT
 #define ASSERT Assert
+#endif  // ASSERT
+
 #if DBG
 #define ASSERT_BENIGN( exp )    (void)(!(exp)?OutputDebugStringA("Assertion Failed:" #exp "\n"),FALSE:TRUE)
 #else
 #define ASSERT_BENIGN( exp )
 #endif  // DBG
-#endif  // ASSERT
 
 
     //---------------------------------------------------------
